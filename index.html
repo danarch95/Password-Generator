@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Div for particles effect -->
+    <div id="particles-js"></div>
+    <div id="container">
+        <h1>Password Generator</h1>
+        <p>Number of characters:</p>
+        <input type="number" id="charNum" value="10" min="1" max="50" placeholder="Max 50 characters"><br>
+        <label for="uppercase"><input type="checkbox" id="uppercase" name="upper">Uppercase</label>
+        <label for="lowercase"><input type="checkbox" id="lowercase" name="lower">Lowercase</label>
+        <label for="numbers"><input type="checkbox" id="numbers" name="number">Numbers</label>
+        <label for="symbols"><input type="checkbox" id="symbols" name="symbol">Symbols</label><br>
+        <button onclick="generateAndDisplayPassword()">Generate password</button>
+        <div id="newPassword"></div>
+
+    </div>
+
+    <!-- Load the particles.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+    <script src="password.js"></script>
+</body>
+</html>
