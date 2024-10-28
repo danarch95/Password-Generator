@@ -17,8 +17,8 @@ A simple Password Generator built with JavaScript, allowing users to create pass
 2. Open `index.html` in a web browser to use the generator.
 
 ## Usage
-- Select the desired character types by checking the buttons.
-- Click "Re-generate" to create a new password.
+- Select the desired character types by checking the buttons and the lenght of the password.
+- Click "Generate Password" to create a new password.
 
 ## Dependencies
 - [particles.js](https://vincentgarreau.com/particles.js/): for background animation.
